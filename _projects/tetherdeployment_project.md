@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wireless Robotic Tether Deployment System
-description: Internship, NASA MSFC - Sensors & Guidance, Navigation, and Control Team
+description: Summer 2019 Internship, NASA MSFC - Sensors & Guidance, Navigation, and Control Team
 img: assets/img/flatfloor_pic.jpg
 importance: 4
 category: work
