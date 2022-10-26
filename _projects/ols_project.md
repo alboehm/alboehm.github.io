@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Outdoor Leadership and Service
-description: Fall 2021 Service Learning Course
+time: Fall 2021
+description: Service Learning Course
 img: assets/img/ols_poster.png
 importance: 4
 category: school

@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Solar Sail Momentum Management Model
-description: Summer 2021 Internship, NASA MSFC - Control Systems Design and Analysis Team
+time: Summer 2021
+description: NASA MSFC, Control Systems Design and Analysis Team
 img: assets/img/rcds.png
-importance: 4
+importance: 2
 category: work
 ---
 

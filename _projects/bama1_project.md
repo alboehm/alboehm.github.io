@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Bama-1 CubeSat Detumbling Model
-description: Fall 2021 - University of Alabama CubeSat Design Team
+time: Fall 2021
+description: University of Alabama CubeSat Design Team
 img: assets/img/bama1_pic.png
-importance: 4
+importance: 1
 category: school
 ---
 

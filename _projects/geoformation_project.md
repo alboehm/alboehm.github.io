@@ -1,15 +1,16 @@
 ---
 layout: page
 title: GEO Satellite Formation Flying
-description: Summer 2022 Internship - Astranis Space Technologies
+time: Summer 2022
+description: Astranis Space Technologies
 img: assets/img/astranis_geo_slot.png
-importance: 4
+importance: 1
 category: work
 ---
 
 ## Overview
 In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO) that will provide broadband internet to rural Alaska. Although space in GEO in limited, Astranis has big plans. The next generation of Astranis internet satellites will be composed of up to four individual satellites that share a single GEO slot. In order to do this safely, we needed to develop strategies to maintain passive separation of the satellites over one orbit while keeping all the satellites in their designated area.
-
+cda
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/astranis_geo_slot.png" title="GEO Slot" class="img-fluid rounded z-depth-1" %}

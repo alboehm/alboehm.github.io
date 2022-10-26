@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Wheeled Inverted Pendulum
-description: Fall 2021 - Spring 2022 - Senior Design Project
+time: Fall 2021 - Spring 2022
+description: Senior Design Project
 img: assets/img/wip_diagram.png
-importance: 4
+importance: 2
 category: school
 ---
 
