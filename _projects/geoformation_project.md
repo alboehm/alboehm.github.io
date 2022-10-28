@@ -26,11 +26,13 @@ cda
 
 By carefully selecting each satellite's orbit, we can ensure the satellites will not collide over short periods of time without the use of any fuel. Parallel relative inclination and eccentricity vectors provide radial and normal separation between the satellites, so they are guaranteed separation over the course of the entire orbit.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/ecc_vecs.png" title="Eccentricity vector effects" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/inc_vecs.png" title="Inlcination vector effects" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
