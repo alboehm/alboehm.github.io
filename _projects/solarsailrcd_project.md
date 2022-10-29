@@ -11,11 +11,11 @@ category: work
 ## Overview
 During the summer of 2021, I worked in the Control Systems Design and Analysis group at NASA Marshall Space Flight Center. I served on the Attitude Determination and Control Systems team and supported the creation of the plant and flight software models for Solar Cruiser, a solar sail with planned for launch in 2025. Solar Cruiser is a technology demonstration mission, so one of its mission goals is to develop and test the technology for using Reflectivity Control Devices (RCDs) for momentum management. 
 
-RCDs are composite materials with a layer of liquid crystal that turns translucent when a voltage is applied. When light strikes an activated RCD, it bounces off the aluminum backing and creates specular reflection. This generates a stronger force vector than when the more diffuse reflection that occurs when the RCDs do not have voltage applied to them. This is illustrated in the diagram below. By setting the RCDs at an angle to the sail and aligning them along each of the four booms, they can be used to trim roll momentum (for solar sails, roll is the rotation of the sail in-plane). Rather than acting directly on the sail's rotational momentum, the RCDs will be used to desaturate the reaction wheels when their rotational speed gets too high.
+RCDs are composite materials with a layer of liquid crystal that turns translucent when a voltage is applied. When light strikes an activated RCD, it bounces off the aluminum backing and creates specular reflection. This generates a stronger force vector than the more diffuse reflection that occurs when the RCDs do not have voltage applied to them. This is illustrated in the diagram below. By setting the RCDs at an angle to the sail and aligning them along each of the four booms, they can be used to trim roll momentum (for solar sails, roll is the rotation of the sail in-plane). Rather than acting directly on the sail's rotational momentum, the RCDs will be used to desaturate the reaction wheels when their rotational speed gets too high.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rcds.png" title="rcds" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/rcds.png" title="rcds" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -31,12 +31,10 @@ This project confirmed my interest in pursuing graduate school for GN&C with a f
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rcd_performance.png" title="rcd_graphs" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/rcd_performance.png" title="rcd_graphs" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
     These graphs show the performance of the RCD model in the Solar Cruiser simulation. When the reaction wheel momentum (bottom chart) leaves the activation band, the RCDs are triggered to apply a moment to the sail, driving the momentum back towards zero.
 </div>
-
-<!---center rcd pic--->

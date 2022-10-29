@@ -12,12 +12,12 @@ category: school
 BAMA-1 is a 3U CubeSat that was developed by the student design group UASpace in order to test drag sail technology for de-orbiting CubeSats from LEO. It was selected for the ELaNa 41 mission that launched on February 10, 2022. I was brought on in the summer of 2021 to create the attitude controls system and model of spacecraft dynamics and space environment.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bama1_pic.png" title="BAMA1 illustration" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/bama1_pic.png" title="BAMA1 illustration" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
-    Illustration of BAMA-1 with a deployed drag sail
+    Illustration of BAMA-1 with a deployed drag sail (image credit: UA Space)
 </div>
 
 
@@ -30,8 +30,8 @@ BAMA-1 had four megnetometers that measured the strength and direction of Earth'
 The picture below shows BAMA-1's three magnetorquers (two cylindrical torque-rods and one square air coil). By running a current through one of the wires, that magnetorquer creates a magnetic dipole. This interacts with the ambient magnetic field (in this case, the Earth's magnetic field) and induces a torque on the CubeSat body.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bama1_bdot.png" title="Diagram of magnetorquer" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/bama1_bdot.png" title="Diagram of magnetorquer" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -43,8 +43,8 @@ In order to use these magnetorquers for detumbling, they must output torques on 
 I first simulated the B-dot controller and CubeSat dynamics in Simulink. The performance of one of these simulation runs is shown in the graph below. Once the gains were tuned to an appropriate value, I worked with the UASpace software lead to implement the controller in flight software.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bama1_detumble.png" title="Detumble performance graph" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/bama1_detumble.png" title="Detumble performance graph" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">

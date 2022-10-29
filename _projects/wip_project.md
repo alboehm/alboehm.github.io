@@ -16,8 +16,8 @@ Because I want to work on controls systems in graduate school and as a career, I
 A wheeled inverted pendulum (WIP) is a cart mounted with a pendulum that rotates freely at its base. The pendulum is balanced by a feedback control loop that commands the cart's movement based on the pendulum's position. WIPs serve as simplified models for balancing in higher dimensional systems, such as bipedal robots. 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/wip_diagram.png" title="Diagram of a WIP" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/wip_diagram_small.png" title="Diagram of a WIP" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -49,8 +49,8 @@ For a cart that is not moving, the accelerometer on the cart only measures accel
 This can be seen in the chart to the right by comparing the readings from the accelerometer mounted to the cart (orange lines on the top plot) with the calculated incline angle (green line on the bottom plot). The cart was not moving during this demonstration, so the incline angle is simply the angle of the gravity vector.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/wip_angles.png" title="WIP Angle Estimation Graphs" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/wip_angles.png" title="WIP Angle Estimation Graphs" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">

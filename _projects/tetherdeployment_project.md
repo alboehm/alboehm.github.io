@@ -9,8 +9,8 @@ category: work
 ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/flatfloor_diagram.png" title="flatfloor_diagram" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/flatfloor_diagram.png" title="flatfloor_diagram" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -23,6 +23,4 @@ During the summer of 2019, I worked at the “Flat Floor” Lab at NASA MSFC, wh
 ## Contributions
 In my role as team lead, I worked closely with our mentor to set project priorities and propose ideas for implementation. I also designed many of the structural components of the modules, including the metal plates that were the base of each level and the cradles that held the compressed air tanks. In my design process, I had to ensure the unit could be taken apart and assembled quickly for rapid prototyping, so I modeled and printed the cradles so that they could be used at many orientations so that they allowed the air tanks to easily enter and leave. I worked with the lab technician, and he taught me how to machine the plates to the desired dimensions. The end result of our team’s effort was a module that could be remotely operated by an Xbox controller, as shown in the video below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iTXhHc_8Mc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!---TODO: add cradle photo, center video--->
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/iTXhHc_8Mc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>

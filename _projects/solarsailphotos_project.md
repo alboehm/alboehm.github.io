@@ -15,12 +15,12 @@ When a solar sail deploys in space, it does not do so perfectly in a flat plane.
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lightsail2.jpg" title="solarsail" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/lightsail2.jpg" title="solarsail" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
-    Image of LightSail-2 taken on its camera (image source: the Planetary Society)
+    Image of LightSail-2 taken on its camera (image credit: the Planetary Society)
 </div>
 
 
@@ -30,8 +30,8 @@ Using MATLAB, I developed a system to create a mesh of the sail that accurately 
 I finished my internship before I was able to complete the project. However, I meticulously documented my ideas and work, so the next intern could take up the project where I left off.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sailimage_to_model.png" title="sailmodel" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/sailimage_to_model.png" title="sailmodel" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">

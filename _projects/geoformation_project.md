@@ -11,9 +11,10 @@ category: work
 ## Overview
 In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO) that will provide broadband internet to rural Alaska. Although space in GEO in limited, Astranis has big plans. The next generation of Astranis internet satellites will be composed of up to four individual satellites that share a single GEO slot. In order to do this safely, we needed to develop strategies to maintain passive separation of the satellites over one orbit while keeping all the satellites in their designated area.
 cda
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/astranis_geo_slot.png" title="GEO Slot" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/astranis_geo_slot.png" title="GEO Slot" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -27,13 +28,13 @@ cda
 By carefully selecting each satellite's orbit, we can ensure the satellites will not collide over short periods of time without the use of any fuel. Parallel relative inclination and eccentricity vectors provide radial and normal separation between the satellites, so they are guaranteed separation over the course of the entire orbit.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ecc_vecs.png" title="Eccentricity vector effects" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        <center>{% include figure.html path="assets/img/ecc_vecs.png" title="Eccentricity vector effects" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/inc_vecs.png" title="Inlcination vector effects" class="img-fluid rounded z-depth-1" %}
+        <center>{% include figure.html path="assets/img/inc_vecs.png" title="Inlcination vector effects" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
