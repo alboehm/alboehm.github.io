@@ -5,7 +5,7 @@ time: Summer 2019
 description: NASA MSFC, Sensors & Guidance, Navigation, and Control Team
 img: assets/img/flatfloor_pic.jpg
 importance: 4
-category: work
+category: Work
 ---
 
 <div class="row">

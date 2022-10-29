@@ -5,7 +5,7 @@ time: Fall 2021
 description: University of Alabama CubeSat Design Team
 img: assets/img/bama1_pic.png
 importance: 1
-category: school
+category: School
 ---
 
 ## Overview

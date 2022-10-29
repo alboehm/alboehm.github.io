@@ -5,7 +5,7 @@ time: Summer 2022
 description: Astranis Space Technologies
 img: assets/img/astranis_geo_slot.png
 importance: 1
-category: work
+category: Work
 ---
 
 ## Overview

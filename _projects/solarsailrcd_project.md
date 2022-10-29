@@ -5,7 +5,7 @@ time: Summer 2021
 description: NASA MSFC, Control Systems Design and Analysis Team
 img: assets/img/rcds.png
 importance: 2
-category: work
+category: Work
 ---
 
 ## Overview

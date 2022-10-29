@@ -5,7 +5,7 @@ time: Fall 2020
 description: NASA MSFC, Guidance & Navigation Design Team
 img: assets/img/lightsail2.jpg
 importance: 4
-category: work
+category: Work
 ---
 
 ## Overview

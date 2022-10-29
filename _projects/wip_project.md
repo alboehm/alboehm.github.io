@@ -5,7 +5,7 @@ time: Fall 2021 - Spring 2022
 description: Senior Design Project
 img: assets/img/wip_diagram.png
 importance: 2
-category: school
+category: School
 ---
 
 ## Background

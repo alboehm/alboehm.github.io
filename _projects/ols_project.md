@@ -5,7 +5,7 @@ time: Fall 2021
 description: Service Learning Course
 img: assets/img/ols_poster.png
 importance: 4
-category: school
+category: School
 ---
 
 <div class="row">
