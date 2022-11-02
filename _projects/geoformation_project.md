@@ -25,7 +25,7 @@ cda
 
 **Passive Separation Analysis**
 
-By carefully selecting each satellite's orbit, we can ensure the satellites will not collide over short periods of time without the use of any fuel. Parallel relative inclination and eccentricity vectors provide radial and normal separation between the satellites, so they are guaranteed separation over the course of the entire orbit.
+By carefully selecting each satellite's orbit, we can ensure the satellites will not collide with each other. Parallel relative inclination and eccentricity vectors provide radial and normal separation between orbits, so the satellite paths are guaranteed not to intersect.
 
 <div class="row">
     <div class="col">
@@ -38,13 +38,19 @@ By carefully selecting each satellite's orbit, we can ensure the satellites will
     </div>
 </div>
 <div class="caption">
-    Inclination and eccentricity vectors create separation between orbits in the radial and tangential directions, respectively, but used individually, there are still intersection points. By making them parallel, the intersection points associated with one of the vectors coincides with the point of maximum separation due to the other vector, so the orbits are completely separated.
+    Inclination and eccentricity vectors create separation between orbits in the radial and tangential directions, respectively. By making them parallel, the intersection points associated with one of the vectors coincides with the point of maximum separation due to the other vector, so the orbits are completely seperation.
 </div>
 
-I created a tool that defined relative inclination and eccentricity vectors for four satellites according to the inclination and longitude limits of the GEO slot. It also determined the initial state of all the satellites in classical orbital elements based on these relative vectors and a reference state (typically, the center of the GEO slot). This allowed for analysis of the satellite separation distances and simulation of the satellite motion.
+I created a tool that defined relative inclination and eccentricity vectors for four satellites according to the inclination and longitude limits of the GEO slot. It also determined the initial state of all the satellites in classical orbital elements based on these relative vectors and a reference state. This allowed for analysis of the distance between satellites and simulation of the satellite motion.
 
 **Formation Stationkeeping Guidance**
 
-While the satellites may be able to maintain separation indefinitely by starting with the right set of orbital elements, they will drift out of the GEO slot without correction due to inclination and eccentricity vector drift. This requires stationkeeping maneuvers, but the guidance that was created for a single satellite needed an overhaul to work with multiple satellites. In the existing guidance, the satellite performed a stationkeeping maneuver when the magnitude of the longitude, eccentricity, or inclination started to violate its GEO slot bounds. I updated the guidance to interpret inclination and eccentricity as vectors rather than magnitudes and to redefine its understanding of the satellite slot based on parameters set in a simulation config file. This maintained existing functionality while expanding the capability of the simulation framework to examine stationkeeping performance of different satellites in the multi-satellite formation.
+While the satellites may be able to maintain relative separation indefinitely by starting in the right orbits, they will drift out of the designated GEO slot due to perturbations unless the orbits are corrected periodically. Stationkeeping maneuvers serve this purpose. 
 
-These two contributions, the tool that initializes the states of each satellite and the updated guidance, supported the simulation of the satellites in formation. I also used this framework to optimize the angles of the monopropellant thrusters for the satellites based on the monopropellant usage over the course of a year.
+The existing stationkeeping guidance was only able to plan maneuvers for a single satellite in a GEO slot, so I updated the guidance to handle multiple satellites within the same slot. This maintained existing functionality while expanding the capability of the simulation framework to examine stationkeeping performance of different satellites in the multi-satellite formation.
+
+**Monoprop Thruster Angle Optimization***
+
+These two contributions supported the simulation of the satellites in formation. My final project was using this framework to optimize the angles of the monopropellant thrusters for the satellites based on fuel usage over the course of a year. 
+
+To do this, I ran a grid search over possible thruster angles. In each grid point (which represents one set of thruster angles), I ran a small Monte Carlo simulation to assess the average fuel usage across varying parameters of the satellites, such as initial position and remaining propellant mass. This process was iterated around the angle sets with the lowest fuel usage to settle on a final thruster angle set that will result in the most efficient stationkeeping.
