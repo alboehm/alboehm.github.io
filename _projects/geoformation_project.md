@@ -49,7 +49,7 @@ While the satellites may be able to maintain relative separation indefinitely by
 
 The existing stationkeeping guidance was only able to plan maneuvers for a single satellite in a GEO slot, so I updated the guidance to handle multiple satellites within the same slot. This maintained existing functionality while expanding the capability of the simulation framework to examine stationkeeping performance of different satellites in the multi-satellite formation.
 
-**Monoprop Thruster Angle Optimization***
+**Monoprop Thruster Angle Optimization**
 
 These two contributions supported the simulation of the satellites in formation. My final project was using this framework to optimize the angles of the monopropellant thrusters for the satellites based on fuel usage over the course of a year. 
 
