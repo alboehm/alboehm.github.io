@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Solar Sail Photos to Models
+title: Solar Sail Image Analysis and Modeling
 time: Fall 2020
 description: NASA MSFC, Guidance & Navigation Design Team
 img: assets/img/lightsail2.jpg
