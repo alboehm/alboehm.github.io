@@ -9,7 +9,7 @@ category: School
 ---
 
 ## Background
-Because I want to work on controls systems in graduate school and as a career, I decided to focus my senior design project around the subject, concentrating on areas in controls I have not yet had the opportunity to work with. There were no options available that fit this criterium, so I collaborated with my mechatronics professor to design one.
+Because I want to work on controls systems in graduate school and as a career, I decided to focus my senior design project around the subject, concentrating on areas in controls I have not yet had the opportunity to work with. There were no options available that fit this criterion, so I collaborated with my mechatronics professor to design one.
 
 ## Project Overview
 

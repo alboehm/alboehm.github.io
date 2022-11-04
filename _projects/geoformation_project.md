@@ -24,7 +24,7 @@ In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO
 
 **Passive Separation Analysis**
 
-By carefully selecting inclination and eccentricity vectors to provide radial and normal seperation between orbits, the satellite's paths are guarunteed not to interesect. I created a tool that defined relative inclination and eccentricity vectors for the four satellites according to the inclination and longitude limits of the GEO slot. It also determined the initial state of all the satellites in classical orbital elements based on these relative vectors and a reference state. This allowed for analysis of the distance between satellites and simulation of the satellite motion, and it will serve as a key tool to design and validate GNC guidance algorithms.
+By carefully selecting inclination and eccentricity vectors to provide radial and normal seperation between orbits, the satellite's paths are guaranteed not to interesect. I created a tool that defined relative inclination and eccentricity vectors for the four satellites according to the inclination and longitude limits of the GEO slot. It also determined the initial state of all the satellites in classical orbital elements based on these relative vectors and a reference state. This allowed for analysis of the distance between satellites and simulation of the satellite motion, and it will serve as a key tool to design and validate GNC guidance algorithms.
 
 
 <div class="row">
