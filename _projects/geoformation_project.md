@@ -9,7 +9,7 @@ category: Work
 ---
 
 ## Overview
-In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO) that will provide broadband internet to rural Alaska. While space in GEO is typically assigned in slots for a single satellite, Astranis plans to send four satellties to share the same slot for their next launch. In order to do this safely, the GNC team and I needed to develop strategies to maintain passive separation of the satellites over one orbit while keeping all the satellites in their designated area.
+In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO) that will provide broadband internet to rural Alaska. While space in GEO is typically assigned in slots for a single satellite, Astranis plans to send multiple satellties to share the same slot for their next launch. In order to do this safely, the GNC team and I needed to develop strategies to maintain passive separation of the satellites over one orbit while keeping all the satellites in their designated area.
 
 <div class="row">
     <div class="col">
@@ -17,14 +17,14 @@ In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO
     </div>
 </div>
 <div class="caption">
-    The box represents the space in geostationary orbit allocated to Astranis. All four satellites must maintain separation from each other without violating these bounds.
+    The box represents the space in geostationary orbit allocated to Astranis. All the satellites must maintain separation from each other without violating these bounds.
 </div>
 
 ## Contributions
 
 **Passive Separation Analysis**
 
-By carefully selecting inclination and eccentricity vectors to provide radial and normal seperation between orbits, the satellite's paths are guaranteed not to interesect. I created a tool that defined relative inclination and eccentricity vectors for the four satellites according to the inclination and longitude limits of the GEO slot. It also determined the initial state of all the satellites in classical orbital elements based on these relative vectors and a reference state. This allowed for analysis of the distance between satellites and simulation of the satellite motion, and it will serve as a key tool to design and validate GNC guidance algorithms.
+By carefully selecting inclination and eccentricity vectors to provide radial and normal separation between orbits, the satellite's paths are guaranteed not to interesect. I created a tool that defined relative inclination and eccentricity vectors for each of the satellites according to the inclination and longitude limits of the GEO slot. It also determined the initial state of all the satellites in classical orbital elements based on these relative vectors and a reference state. This allowed for analysis of the distance between satellites and simulation of the satellite motion, and it will serve as a key tool to design and validate GNC guidance algorithms.
 
 
 <div class="row">
