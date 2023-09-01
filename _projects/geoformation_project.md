@@ -9,7 +9,7 @@ category: Work
 ---
 
 ## Overview
-In late 2022, Astranis will launch a small satellite to geostationary orbit (GEO) that will provide broadband internet to rural Alaska. While space in GEO is typically assigned in slots for a single satellite, Astranis plans to send multiple satellties to share the same slot for their next launch. In order to do this safely, the GNC team and I needed to develop strategies to maintain passive separation of the satellites over one orbit while keeping all the satellites in their designated area.
+In early 2023, Astranis launched a small satellite to geostationary orbit (GEO) with the goal of providing broadband internet to rural Alaska. While space in GEO is typically assigned in slots for a single satellite, Astranis plans to send multiple satellties to share the same slot for their next launch. In order to do this safely, the GNC team and I needed to develop strategies to maintain passive separation of the satellites over one orbit while keeping all the satellites in their designated area.
 
 <div class="row">
     <div class="col">
