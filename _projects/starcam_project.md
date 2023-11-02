@@ -21,7 +21,7 @@ A star tracker is a sensor that estimates spacecraft attitude in inertial space.
     </div>
 </div>
 <div class="caption">
-    star trackers are mounted to the spacecraft bus. As the spacecraft rotates, the stars seen in the star tracker image sensor shift.
+    Star trackers are mounted to the spacecraft bus. As the spacecraft rotates, the stars seen in the star tracker image sensor shift.
 </div>
 
 Ideally, a star tracker is athermal: the attitude estimate is uncorrelated with the star tracker temperature. However, heat causes materials in the star tracker assembly to expand, which is seen by the star tracker camera sensor as a shift in the starfield. Thus, thermal loads on the star tracker can introduce error into the spacecraft attitude estimate, and this error needs to be characterized in order to understand the uncertainty of the star tracker attitude estimate. My goal was to identify the star tracker components that were deforming the most due to temperature, and to quantify the error in arcseconds per unit temperature.
