@@ -25,7 +25,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 My interests lie at the intersection of theory, hardware, and software, and I want to be a GNC engineer focusing on space systems.
 
-I developed an interest in guidance, navigation, and controls by working on solar sails in my NASA internships. After I graduated from the University of Alabama with my BS in MechE, I developed formation flying tools for a satellite startup. Currently, I am a first-year Aero MS student at the University of Colorado in the Astrodynamics & Satellite Navigation focus area.
+I developed an interest in guidance, navigation, and controls by working on solar sails in my NASA internships. After I graduated from the University of Alabama with a BS in MechE, I developed formation flying tools for a satellite startup. This past summer, led a test campaign to characterize thermal bias on star tracker attitude estimates. Currently, I am a second-year Aero MS student at the University of Colorado in the Astrodynamics & Satellite Navigation focus area. 
 
 #### Contact Info
 
