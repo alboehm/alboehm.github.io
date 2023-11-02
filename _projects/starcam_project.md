@@ -3,7 +3,7 @@ layout: page
 title: Star Tracker Thermal Boresight Testing
 time: Summer 2023
 description: Planet
-img: assets/img/startracker_starfield_movement.png
+img: assets/img/startracker_starfield_movement.PNG
 importance: 1
 category: Work
 ---
@@ -17,7 +17,7 @@ A star tracker is a sensor that estimates spacecraft attitude in inertial space.
 
 <div class="row">
     <div class="col">
-        <center>{% include figure.html path="assets/img/startracker_starfield_movement.png" title="startracker Ops" class="img-fluid rounded z-depth-1" %}</center>
+        <center>{% include figure.html path="assets/img/startracker_starfield_movement.PNG" title="startracker Ops" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -33,7 +33,7 @@ To test the thermal effects on the star tracker attitude estimate, I set up a te
 
 <div class="row">
     <div class="col">
-        <center>{% include figure.html path="assets/img/starcam_test_setup.png" title="startracker thermal test setup" class="img-fluid rounded z-depth-1" %}</center>
+        <center>{% include figure.html path="assets/img/starcam_test_setup.PNG" title="startracker thermal test setup" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
@@ -48,7 +48,7 @@ An early problem I encountered was that the star tracker was not initially insul
 
 <div class="row">
     <div class="col">
-        <center>{% include figure.html path="assets/img/starcam_motion_graphs.png" title="Star Motion Graphs" class="img-fluid rounded z-depth-1" %}</center>
+        <center>{% include figure.html path="assets/img/starcam_motion_graphs.PNG" title="Star Motion Graphs" class="img-fluid rounded z-depth-1" %}</center>
     </div>
 </div>
 <div class="caption">
